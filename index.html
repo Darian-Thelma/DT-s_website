@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thelma's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Darian-
+            <span>Thelma</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </header>
+
+    <section class="home" id="home">
+        <div>
+        <div class="home-content">
+            <h1>Hi, it's <span>Darian</span></h1>
+            <h3>I'm a <span>Frontend developer</span></h3>
+        </div>
+        <div class="social-icons">
+             <img src="Images/linkedin.jpg" alt="LinkedIn" class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/tabi-darian-thelma-beteck-0706ab377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"/>
+            <img src="Images/git.jpg" alt="githubIn" class="icon" 
+            onclick="location.href='https://github.com/Darian-Thelma'"/>
+             <img src="Images/whatsapp.jpg" alt="githubIn" class="icon" 
+            onclick="location.href='https://wa.me/+237677117776'"/>
+        </div>
+        <div class="btn-group">
+            <button class="btn" onclick="location.href='Images/CV.pdf'">Download CV</button>
+            <button class="btn"
+            onclick="location.href='\#contact'">Contact Info</button>
+        </div>
+        </div>
+        <div class="home-img">
+            <img src="Images/me.jpg" alt="my profile pic">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="heading">About me; <span>Education</span></h3>
+
+        <div class="timeline-items">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Secondary school</h3>
+                    <p>I attended my secondary school in SBA, 
+                        Shalom Bilingual Academy for 5years where I
+                        had my GCE Ordinary levels
+                    </p>
+                </div>
+        </div>
+
+         <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>High school</h3>
+                    <p>I attended my High school still in SBA, 
+                        Shalom Bilingual Academy for 2years where I
+                        had my GCE Advanced levels
+                    </p>
+                </div>
+        </div>
+
+         <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>I currently attend my University in UB,  
+                        University of Buea where I entered for
+                        a Bachelor's program in Computer Engineering
+                        specifically software engineering
+                    </p>
+                </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>I worked for 5weeks at TECHNOVICE Buea
+                        where I gained skills in my field and learned
+                        how to work in teams
+                    </p>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-box">
+            <h2 class="heading">Projects</h2>
+
+            <div class="wrapper">
+                <div class="projects-item">
+                    <img src="Images/PROJECT 1.PNG" alt="">
+                    <h2 class="title">Project one</h2>
+                    <div class="rating">
+
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn" onclick="location.href='https://github.com/Darian-Thelma/DT-s_website.git'">Github</button>
+                        <button class="btn"
+                        onclick="location.href='index.html'">Live demo</button>
+                    </div>
+                </div>
+
+                 <div class="projects-item">
+                    <img src="Images/project 2.PNG" alt="">
+                    <h2 class="title">Project Two</h2>
+                    <div class="rating">
+
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn" onclick="location.href='https://github.com/Darian-Thelma/Youtube-cloning-for-beginner.git'">Github</button>
+                        <button class="btn"
+                        onclick="location.href='Youtube-cloning-for-beginner-main (1).zip'">Live demo</button>
+                    </div>
+                </div>
+
+                 <div class="projects-item">
+                    <img src="Images/project 3.PNG" alt="">
+                    <h2 class="title">Project Three</h2>
+                    <div class="rating">
+
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn"
+                        onclick="location.href='https://github.com/Tambi122/Named-blog.git'">Github</button>
+                        <button class="btn"
+                        onclick="location.href='Named-blog-main.zip'">Live demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number" required>
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group2">
+                <textarea name="" id="" cols="30" rows="10"
+                placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+              <img src="Images/linkedin.jpg" alt="LinkedIn" class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/tabi-darian-thelma-beteck-0706ab377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"/>
+            <img src="Images/git.jpg" alt="githubIn" class="icon" 
+            onclick="location.href='https://github.com/Darian-Thelma'"/>
+             <img src="Images/whatsapp.jpg" alt="githubIn" class="icon" 
+            onclick="location.href='https://wa.me/+237677117776'"/>
+        </div>
+
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+             Darian-Thelma | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
